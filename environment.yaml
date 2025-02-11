@@ -1,0 +1,9 @@
+name: asr
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.5
+  - pip
+  - pip:
+    - -r file:requirements.txt

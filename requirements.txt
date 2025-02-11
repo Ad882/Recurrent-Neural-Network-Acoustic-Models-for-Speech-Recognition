@@ -1,0 +1,11 @@
+soundfile
+ipython
+matplotlib
+numpy
+g2p_en
+flashlight-text
+librosa
+regex
+torch
+plotly
+nltk
