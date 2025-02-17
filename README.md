@@ -96,3 +96,9 @@ conda env create --name asr --file=environment.yaml
 ### 4. Run the Notebook 🚀
 
 Then just run the notebook and enjoy!
+
+
+<br>
+
+
+## App
