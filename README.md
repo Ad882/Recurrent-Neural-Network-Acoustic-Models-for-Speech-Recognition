@@ -1,7 +1,8 @@
 <h1 align='center'> Recurrent Neural Network Acoustic Models for Speech Recognition 🗣️ </h1>
 
 This project explores the use of Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory (LSTM) networks, for speech recognition tasks. The project is inspired by a Google [paper](paper.pdf) on speech recognition.    
-The main goal of the Notebook is to serve as an educational resource for learning how speech-to-text systems work, from the features extraction (with the use of Mel-frequency cepstral coefficients (MFCCs) and transcription encoding), the construction of the model, the use of the Connectionist Temporal Classification (CTC) loss, the Word Error Rate (WER)...
+The main goal of the Notebook is to serve as an educational resource for learning how speech-to-text systems work, from the features extraction (with the use of Mel-frequency cepstral coefficients (MFCCs) and transcription encoding), the construction of the model, the use of the Connectionist Temporal Classification (CTC) loss, the Word Error Rate (WER)...   
+Finally, an ASR application is available!
 
 <br>
 
@@ -17,12 +18,22 @@ The project is structured to help understanding the theory behind these concepts
 
 <br>
 
+An ASR application as been added based on the [open-ai whisper](https://openai.com/index/whisper/) model. 
+
+<br>
+
 ## 🗂️ Project Structure
 
 Here's the current structure of the project:
 
 ```
 Recurrent-Neural-Network-Acoustic-Models-for-Speech-Recognition/
+├── app/                                # Raw and processed audio data 
+│   ├── devices.py                      # Check available microphones 
+│   ├── load.py                         # Whisper model loading 
+│   ├── main.py                         # Main ASR Application 
+│   └── microphone_test.py              # Test microphone 
+│   
 ├── data/                               # Raw and processed audio data 
 │   ├── audio_sample                    # Raw audio used in the Notebook 
 │   │   ├── ...
@@ -101,7 +112,6 @@ Then just run the notebook and enjoy!
 <br>
 
 
-## App
+## 🎙️ Application
 
-An application
-
+An ASR application is being implemented...
