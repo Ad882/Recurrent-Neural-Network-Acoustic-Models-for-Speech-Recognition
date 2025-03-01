@@ -2,7 +2,8 @@
 
 This project explores the use of Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory (LSTM) networks, for speech recognition tasks. The project is inspired by a Google [paper](paper.pdf) on speech recognition.    
 The main goal of the Notebook is to serve as an educational resource for learning how speech-to-text systems work, from the features extraction (with the use of Mel-frequency cepstral coefficients (MFCCs) and transcription encoding), the construction of the model, the use of the Connectionist Temporal Classification (CTC) loss, the Word Error Rate (WER)...   
-Finally, an ASR application is available!
+Watch the project [poster](poster.pdf)!   
+Finally, an ASR application is in progress... 🚧
 
 <br>
 
@@ -63,6 +64,7 @@ Recurrent-Neural-Network-Acoustic-Models-for-Speech-Recognition/
 ├── LICENSE                             # License file
 ├── notebook.ipynb                      # Educative notebook
 ├── paper.pdf                           # Paper that inspired the repo
+├── poster.pdf                          # Project poster
 ├── README.md                           # Project documentation (this file)
 └── requirements.txt                    # Python dependencies
 ```
